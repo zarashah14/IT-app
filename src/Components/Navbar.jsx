@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
+// util
+import clsx from "clsx";
+
 import Container from "../Mycontainer/Container";
 
 
@@ -25,7 +28,15 @@ function Navbar() {
               {menuClosed ? <Burger /> : <Close />}
             </button>
          </div>
-          <ul className="">
+         <ul
+            className={clsx(
+              "md:mr-14 flex justify-center font-medium text-center px-8 sm:px-4 md:px-0 space-y-4 md:space-y-0  md:mt-0 items-center flex-col md:flex-row",
+              {
+                "translate-x-[-100%] md:translate-x-0": menuClosed,
+                "translate-x-0": !menuClosed,
+              }
+            )}
+          >
           <Link
               className="md:ml-12 text-[#F18585] border-b-2 border-b-[#F18585]"
               href="/"
