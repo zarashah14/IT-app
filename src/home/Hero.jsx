@@ -2,7 +2,7 @@ import React from "react";
 
 
 import Container from "../Mycontainer/Container";
-//import Button from "../button";
+import Button from '../Components/button'
 
 // assets
 import HeroImg from "../assets/hero.png";
@@ -17,7 +17,7 @@ function Hero() {
           <h1 className="md:text-[48px] text-[22px] max-w-[527px]">
             A student-centered education and experiential learning platform
           </h1>
-        {  /*<Button />*/}
+          <Button />
           <div className="absolute hidden lg:block -left-48 -top-28">
             <img src={SideImageOne} alt="Profile"/>
           </div>

@@ -2,13 +2,14 @@ import React from 'react'
 
 
 // components
-//import Button from '../button'
+import Button from '../Components/button'
 import Container from '../Mycontainer/Container'
 
 // assets
 import ScreenVector from '../assets/ScreenVector'
 import WatchVector from '../assets/WatchVector'
 import EmojiVector from '../assets/EmojiVector'
+import bgCol from "../assets/bgCol.png";
 
 
 function SectionC() {
@@ -31,11 +32,13 @@ function SectionC() {
             <span className='my-8'>Easy to use</span>
         </div>
         
-        {/* <Button /> */}
+         <Button />
     </div>
-    {/* <div className=''>
-    <Image src={Background}  alt='...' width={346} className='w-full relative' height={296} />
-    </div> */}
+     <div className=''>
+  
+    <img src={bgCol}  alt='...' width={346} className='w-full relative' height={296} />
+   
+    </div> 
     </div>
     </Container>
   )

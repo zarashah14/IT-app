@@ -34,25 +34,25 @@ function Navbar() {
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="/"
+              href="#"
             >
               About
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="/"
+              href="#"
             >
               Products
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="/"
+              href="#"
             >
               Contact
             </Link>
             <Link
               className="md:ml-12 bg-[#F18585] w-full px-2 md:px-4 lg:px-8 rounded-full hover:bg-white border-2 border-[#F18585] hover:text-[#F18585] text-white md:py-1 py-1.5"
-              href="/"
+              href="#"
             >
               Sign In
             </Link>
