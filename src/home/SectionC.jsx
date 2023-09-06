@@ -31,8 +31,8 @@ function SectionC() {
             <EmojiVector />
             <span className='my-8'>Easy to use</span>
         </div>
-        
-         <Button />
+            <Button />
+         
     </div>
      <div className=''>
   

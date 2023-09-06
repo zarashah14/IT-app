@@ -22,7 +22,7 @@ function Navbar() {
          <div className="mt-4 flex justify-between items-center">
             <Logo />
             <button
-              className="text-3xl block md:hidden mr-4  text-primary"
+              className="text-3xl block md:hidden mr-4  text-primary" 
               onClick={() => setMenuClosed((closed) => !closed)}
             >
               {menuClosed ? <Burger /> : <Close />}
@@ -39,31 +39,31 @@ function Navbar() {
           >
           <Link
               className="md:ml-12 text-[#F18585] border-b-2 border-b-[#F18585]"
-              href="/"
+              to="/"
             >
               Home
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="#"
+              to="/about"
             >
               About
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="#"
+              to="#"
             >
               Products
             </Link>
             <Link
               className="md:ml-12 hover:text-[#F18585] hover:border-b-2 hover:border-b-[#F18585]"
-              href="#"
+              to="/contact"
             >
               Contact
             </Link>
             <Link
               className="md:ml-12 bg-[#F18585] w-full px-2 md:px-4 lg:px-8 rounded-full hover:bg-white border-2 border-[#F18585] hover:text-[#F18585] text-white md:py-1 py-1.5"
-              href="#"
+              to="/Login"
             >
               Sign In
             </Link>
@@ -74,4 +74,4 @@ function Navbar() {
     );
   }
   
-  export default Navbar;
+  export default Navbar; 
