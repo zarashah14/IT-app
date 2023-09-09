@@ -23,7 +23,7 @@ function index() {
         </div>
       </div>
       <div className="bg-[#46C3EA] flex h-screen justify-center items-center"></div>
-      <div className="absolute max-w-[1080px] mt-32 ml-32 mx-h-[516px] top-0 shadow-2xl bg-white rounded-sm">
+      <div className="absolute max-w-[1080px] mx-h-[516px] translate-x-1/2 translate-y-1/2 shadow-2xl bg-white rounded-sm">
         <div className="pl-14 pt-5">
           <AboutPic />
         </div>

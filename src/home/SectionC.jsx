@@ -30,7 +30,7 @@ function SectionC() {
             <span className="my-8">Easy to use</span>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative w-full">
           <img
             src={bgCol}
             alt="..."
@@ -38,7 +38,7 @@ function SectionC() {
             className="w-full relative"
             height={296}
           />
-          <div className="absolute bottom-12 translate-x-[32rem] z-10">
+          <div className="absolute bottom-12 translate-x-1/2  z-10">
             <Button />
           </div>
         </div>
