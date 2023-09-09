@@ -67,6 +67,12 @@ function Navbar() {
             >
               Sign In
             </Link>
+            <Link
+              className="md:ml-12 bg-[#F18585] w-full px-2 md:px-4 lg:px-8 rounded-full hover:bg-white border-2 border-[#F18585] hover:text-[#F18585] text-white md:py-1 py-1.5"
+              to="/dashboard"
+            >
+              Dashboard
+            </Link>
          </ul>
          </nav>
        </Container>

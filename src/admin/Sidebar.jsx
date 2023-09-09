@@ -1,15 +1,3 @@
-/*import React from "react";
-function Sidebar() {
-    return (
-      <>
-      <div className="">
-        <h1> Hello I am Sidebar</h1> 
-      </div>
-      </> 
-    );
-  }
-  
-export default Sidebar;*/
 import React, { useState } from "react";
 
 import { Link } from 'react-router-dom';
@@ -18,7 +6,7 @@ import { Link } from 'react-router-dom';
 import SidebarLogo from "../assets/SidebarLogo";
 import BoyPic from "../assets/BoyPic.png";
 import SidebarVector from "../assets/SidebarVector";
-import Employee from "../assets/Employee";
+// import Employee from "../assets/Employee";
 import Attendence from "../assets/Attendence";
 import Expensis from "../assets/Expensis";
 import Events from "../assets/Events";
@@ -53,7 +41,7 @@ function Sidebar() {
             </button>
           </div>
           <div className="bg-[#2D4053] flex flex-col justify-center items-center py-7 text-white">
-            <Img src={BoyPic} alt="..." />
+            <image src={BoyPic} alt="..." />
             <p className="text-base font-medium pt-4">Richard Oyome</p>
             <p className="text-xs font-medium pt-4">Super Admin</p>
           </div>
@@ -69,7 +57,7 @@ function Sidebar() {
             to="/dashboard/employee"
             className="flex py-2 pl-9 rounded-r-full mt-8 focus:bg-[#2D4053]"
           >
-            <Employee />
+            {/* <Employee /> */}
             <p className="pl-4 text-white">Employee</p>
           </Link>
           <Link
