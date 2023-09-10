@@ -11,7 +11,7 @@ function Employe() {
   import React from "react";
 
 // components
-import Pagination from "../Pagination";
+import Pagination from "../Components/Pagination";
 
 function Employe() {
   return (

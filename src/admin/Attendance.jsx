@@ -11,8 +11,8 @@ function Attendance() {
   import React from "react";
 
 // assets
-import Elipse from "@/src/assets/Ellipse.png";
-import TeckGreen from "@/src/assets/TeckGreen";
+import Elipse from "../assets/Ellipse.png";
+import TeckGreen from "../assets/TeckGreen";
 
 function Attendence() {
   return (
@@ -29,7 +29,7 @@ function Attendence() {
         <tbody>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -47,7 +47,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -65,7 +65,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -83,7 +83,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -101,7 +101,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -119,7 +119,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>
@@ -137,7 +137,7 @@ function Attendence() {
           </tr>
           <tr className="bg-white">
             <td className="flex items-center py-2 px-5">
-              <Img src={Elipse} alt="..." />
+              <img src={Elipse} alt="..." />
               <p className="pl-4">Aderinsola Emmanuel</p>
             </td>
             <td>Teaching</td>

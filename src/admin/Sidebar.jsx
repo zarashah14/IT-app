@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import SidebarLogo from "../assets/SidebarLogo";
 import BoyPic from "../assets/BoyPic.png";
 import SidebarVector from "../assets/SidebarVector";
-// import Employee from "../assets/Employee";
+ import Employee from "../assets/Employee";
 import Attendence from "../assets/Attendence";
 import Expensis from "../assets/Expensis";
 import Events from "../assets/Events";
@@ -41,34 +41,34 @@ function Sidebar() {
             </button>
           </div>
           <div className="bg-[#2D4053] flex flex-col justify-center items-center py-7 text-white">
-            <image src={BoyPic} alt="..." />
+            <img src={BoyPic} alt="..." />
             <p className="text-base font-medium pt-4">Richard Oyome</p>
             <p className="text-xs font-medium pt-4">Super Admin</p>
           </div>
           <div className="bg-[#435260] py-7 "></div>
           <Link
-            to="/"
+            to="/Index"
             className="focus:bg-[#2D4053] flex py-2 pl-9 rounded-r-full"
           >
             <SidebarVector />
             <p className="pl-4 text-white">Home</p>
           </Link>
           <Link
-            to="/dashboard/employee"
+            to="/employe"
             className="flex py-2 pl-9 rounded-r-full mt-8 focus:bg-[#2D4053]"
           >
-            {/* <Employee /> */}
+              <Employee />
             <p className="pl-4 text-white">Employee</p>
           </Link>
           <Link
-            to="/"
+            to="/attendence"
             className="flex py-2 pl-9 focus:bg-[#2D4053] rounded-r-full mt-8"
           >
             <Attendence />
             <p className="pl-4 text-white">Attendance</p>
           </Link>
           <Link
-            to="/"
+            to="/account"
             className="flex py-2 pl-9 focus:bg-[#2D4053] rounded-r-full mt-8"
           >
             <Expensis />

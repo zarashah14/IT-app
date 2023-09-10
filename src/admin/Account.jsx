@@ -11,8 +11,8 @@ function Account() {
   import React, { useState } from "react";
 
 // components
-import Expenses from "../Expenses";
-import Sallery from "../Sallery";
+import Expenses from "../Components/Expenses";
+import Sallery from "../Components/Sallery";
 
 // assets
 import Expens from "../assets/Expens";

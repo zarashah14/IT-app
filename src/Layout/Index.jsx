@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 // components
 import Sidebar from "../admin/Sidebar";
@@ -21,4 +21,4 @@ function Layout({ children }) {
     );
   }
   
-  export default Layout;
+  export default Layout;*/

@@ -13,12 +13,13 @@ function Main() {
 // assets
 import LeftArrow from "../assets/LeftArrow";
 import Elipse from "../assets/Ellipse.png";
-
+//import Sidebar from "./Sidebar";
 function Main() {
   return (
     <div>
       <div className="md:pl-14 pl-7 md:pr-24 pr-12 bg-[#F2EFEF] h-full col-span-10">
         <div className="flex items-center justify-between pt-14">
+         
           <h5 className="font-semibold text-[24px]">Summary</h5>
           <LeftArrow />
         </div>
@@ -59,7 +60,7 @@ function Main() {
             <tbody>
               <tr className="bg-white px-5">
                 <td className="py-4 pl-5 flex items-center gap-4">
-                  <Img src={Elipse} width={35} height={35} alt="..." />
+                <img src={Elipse} width={35} height={35} alt="..." />
                   <p>Aderinsola Emmanuel</p>
                 </td>
                 <td>02 - 01 - 2020</td>
@@ -72,7 +73,7 @@ function Main() {
               </tr>
               <tr className="bg-white py-4">
                 <td className="py-4 pl-5 flex gap-4">
-                  <Img src={Elipse} width={35} height={35} alt="..." />
+                <img src={Elipse} width={35} height={35} alt="..." />
                   <p>Adefarasin Elizabeth</p>
                 </td>
                 <td>02 - 01 - 2020</td>
@@ -85,7 +86,7 @@ function Main() {
               </tr>
               <tr className="bg-white py-4">
                 <td className="py-4 pl-5 flex gap-4">
-                  <Img src={Elipse} width={35} height={35} alt="..." />
+                <img src={Elipse} width={35} height={35} alt="..." />
                   <p>Chukwudi Ugochukwu</p>
                 </td>
                 <td>02 - 01 - 2020</td>
@@ -98,7 +99,7 @@ function Main() {
               </tr>
               <tr className="bg-white py-4">
                 <td className="py-4 pl-5 flex gap-4">
-                  <Img src={Elipse} width={35} height={35} alt="..." />
+                <img src={Elipse} width={35} height={35} alt="..." />
                   <p>Abdullahi Hawau</p>
                 </td>
                 <td>02 - 01 - 2020</td>
@@ -111,7 +112,7 @@ function Main() {
               </tr>
               <tr className="bg-white py-4">
                 <td className="py-4 pl-5 flex gap-4">
-                  <Img src={Elipse} width={35} height={35} alt="..." />
+                <img src={Elipse} width={35} height={35} alt="..." />
                   <p>Uzomeka Chinyere</p>
                 </td>
                 <td>02 - 01 - 2020</td>
