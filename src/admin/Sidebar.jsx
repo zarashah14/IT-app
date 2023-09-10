@@ -75,7 +75,7 @@ function Sidebar() {
             <p className="pl-4 text-white">Account</p>
           </Link>
           <Link
-            to="/"
+            to="/Events"
             className="flex py-2 pl-9 focus:bg-[#2D4053] rounded-r-full mt-8"
           >
             <Events />

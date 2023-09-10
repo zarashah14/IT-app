@@ -10,6 +10,7 @@ import Index from "./admin/Index";
 import Acc from "./admin/Acc";
 import attend from "./admin/attend";
 import Emp from "./admin/Emp"
+//import Events from "./assets/Events";
 //login
 import Logindata from "./Logins/Logindata";
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/account" component={Acc} />
         <Route exact path="/attendence" component={attend} />
         <Route exact path="/employe" component={Emp} /> 
+       { /*<Route exact path="/Events" component={Events} />*/ }
       </Switch>
 
       {/* <Home/>*/}
