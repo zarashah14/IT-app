@@ -9,7 +9,9 @@ import Dashboard from "./dashboard/index"
 import Index from "./admin/Index";
 import Acc from "./admin/Acc";
 import attend from "./admin/attend";
-import Emp from "./admin/Emp";
+import Emp from "./admin/Emp"
+//login
+import Logindata from "./Logins/Logindata";
 function App() {
   return (
     <>
@@ -17,6 +19,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Login" component={Logindata} /> 
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/Index" component={Index} />
         <Route exact path="/account" component={Acc} />
